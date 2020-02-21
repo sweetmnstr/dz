@@ -1,0 +1,71 @@
+*{
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #34ebba;
+  padding: 10px;
+}
+a{
+  font-size: 1.2em;
+  margin: 10px;
+  color: white;
+}
+input{
+  font-size: 0.9em;
+  border-radius: 9px;
+  border: 1.1px solid silver;
+  float: right;
+}
+p{
+  position: absolute;
+  padding-top: 200px;
+  font-size: 1.5em;
+  -webkit-animation: 5s kukold infinite;
+}
+header li{
+  display: inline-block;
+}
+.headwrapper{
+  width: 95%;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+}
+
+img{
+  padding-top: 3px;
+  display: none;
+}
+
+/* .fas{
+  color: red;
+} */
+
+
+@media screen and (max-width: 507px)  {
+ul{display: none;}
+img{
+  display: block;
+}
+
+}
+
+@-webkit-keyframes kukold{
+  0%{
+    left: 10px;
+  }
+  25%{
+    left: 900px;
+  }
+  50%{
+    left: 1780px;
+  }
+  75%{
+    left: 900px;
+  }
+  100%{
+    left: 10px;
+  }
+}
